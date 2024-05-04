@@ -58,7 +58,7 @@ class _TodoListPAGEState extends State<TodoListPAGE> {
                         todoController.clear();
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Color(0xff00d7f3),
+                        backgroundColor: Color(0xff00d7f3),
                         padding: EdgeInsets.all(20),
                       ),
                       child: Icon(
@@ -98,7 +98,7 @@ class _TodoListPAGEState extends State<TodoListPAGE> {
                     ElevatedButton(
                       onPressed: showDeletetodosConfirmationDialog,
                       style: ElevatedButton.styleFrom(
-                        primary: Color(0xff00d7f3),
+                        backgroundColor: Color(0xff00d7f3),
                         padding: EdgeInsets.all(20),
                       ),
                       child: Text(
